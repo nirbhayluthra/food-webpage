@@ -1,0 +1,52 @@
+body{
+    background: #f5d9d5;
+font-family: Nunito;
+}
+ 
+#mainnavbar .navbar-brand{
+    color: #ea1c2c;
+   font-size: 2rem;
+   font-weight: 800;
+}
+#mainnavbar{
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+#mainnavbar .nav-link{
+    color: rgb(57, 43, 179);
+
+}
+#mainnavbar .nav-link:hover{
+   color: #ea1c2c;
+    background-color: white;
+    
+}
+#heading-group span{
+    color: #ea1c2c;
+}
+#heading-group h2{
+     font-weight: 100;
+     font-size: 3rem;
+}
+
+@media (max-width:1500px)
+{
+    #heading-group h2{
+        font-weight: 100;
+        font-size: 2rem;
+   }
+}
+
+body{
+
+    height: 100%;
+    position: relative;
+    width: 99%;
+    box-sizing: border-box;
+}
+@media(max-width:800px){
+#navlinks{
+    background-color: aliceblue;
+}
+}
