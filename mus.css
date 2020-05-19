@@ -1,5 +1,5 @@
 body{
-    background: #f5d9d5;
+    background: #242321;
 font-family: Nunito;
 }
  
@@ -14,20 +14,21 @@ font-family: Nunito;
 }
 
 #mainnavbar .nav-link{
-    color: rgb(57, 43, 179);
+    color: rgb(255, 255, 255);
 
 }
 #mainnavbar .nav-link:hover{
    color: #ea1c2c;
-    background-color: white;
+    background-color: rgb(35, 20, 236);
     
 }
 #heading-group span{
-    color: #ea1c2c;
+    color: #8c19eb;
 }
 #heading-group h2{
-     font-weight: 100;
+     font-weight: 500;
      font-size: 3rem;
+     color: rgb(219, 245, 71)  ;
 }
 
 @media (max-width:1500px)
@@ -47,6 +48,24 @@ body{
 }
 @media(max-width:800px){
 #navlinks{
-    background-color: aliceblue;
+    background-color: rgb(240, 87, 227);
 }
+
+}
+.h2text{
+  color: #ea1c2c;   
+}   
+.lead{
+    color: #faa442;
+    line-height: 2;
+}
+
+.content {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.navbar.scrolled{
+    background: rgb(240, 87, 227);
+    transition: background 500ms;
 }
